@@ -1,16 +1,16 @@
 
 # Site settings
 
-url: "https://panossakkos.github.io"
+url: "https://qhexacoda.github.io/"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
 # and NOT your user repository (https://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
 
-baseurl: /personal-jekyll-theme
+baseurl: /qhexacoda
 
-google-tracking-id: "UA-35880426-4"
+google-tracking-id: "UA-69774437-1"
 
 # Forces https everywhere in your website, except when you serve it locally
 
@@ -20,20 +20,20 @@ force-https: True
 # HTML Head #
 #############
 
-author: "John Smith"
+author: "Weerayoot Ngandee"
 lang: "en"
-title: "{ John Smith }"
+title: "{ Weerayoot Ngandee }"
 favicon: "/img/favicon.ico"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+description: "Blog and website of Weerayoot Ngandee, blogging mainly for tech. Opinions expressed are mine."
+keywords: "Ngandee, Weerayoot, qhexacoda, QWeerayoot, personal, jekyll, iOS Developer, Android Developer, Mobile Developer"
 
 ################
 # Intro layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: "/img/favicon.ico"
 background-img: "../img/intro-bg.jpg"
-me-img: "/img/jetpacktocat.png"
+me-img: "/img/me.jpeg"
 
 ##############################
 # Dynamic Text on the header #
@@ -47,8 +47,8 @@ type-speed:	10		# Default 10
 start-delay: 200	# Default 200
 delete-delay: 5000	# Default 5000
 lines:			# You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Hello friends..."
+  - text: "Hello friends..."
 
 ########
 # Blog #
@@ -61,28 +61,34 @@ paginate: 5
 fb-share: True
 twitter-share: True
 reddit-share: True
-disqus-shortname: "panossakkos"
+disqus-shortname: "qhexacoda"
 
 ###############
 # Life Events #
 ###############
 
 events:
-  - image: "/img/career/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/career/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/career/hexacoda_logo.png" #change it to hexacoda logo
+    date: "September 2015 - Today"
+    description: "Co-Founder & Lead Development at Hexacoda CO.,LTD."
+  - image: "/img/career/digitalnoir_logo.png" #change it to digitalnoir logo
+    date: "September 2014 - September 2015"
+    description: "Mobile Developer & Lead Developer at Digitalnoir"
+  - image: "/img/career/buzzwoo_logo.png" #change it to buzzwoo logo
+    date: "August 2011 - August 2014"
+    description: "iOS Developer at BUZZWOO! Asia CO.,LTD."
+  - image: "/img/career/cmu_logo.png" #change it to cmu logo
+    date: "June 2007 - March 2011"
+    description: "Studied in Bachelor degree of Computer Science at Chiang Mai University, Thailand"
 
 # First image of the Career timeline
-career-img: "/img/career/default.png"
+career-img: "/img/me.jpeg"
 
 ##################
 # Contact layout #
 ##################
 
-email: "your@email.here"
+email: "weerayoot@hexacoda.com"
 
 ##################
 # Social Buttons #
@@ -96,7 +102,7 @@ social:
   - title: "youtube"
     url: "https://youtube.com/"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
+    url: "https://github.com/"
   - title: "rss"
     url: "/feed.xml"
 
